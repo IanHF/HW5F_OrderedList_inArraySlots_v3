@@ -1,9 +1,12 @@
 public interface OrderedList{
 
     /**
-      @return the index of the first occurrence of 
+      @return the index of any occurrence of 
               \findMe in this list, or -1 if
               \findMe is absent from this list.
+	  The "any" qualifier relaxes Java's standard
+	  restriction in AbstractList.indexOf, which
+	  requires the first occurrence.
      */
     int indexOf( Integer findMe);
 

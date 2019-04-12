@@ -55,7 +55,7 @@ public class UserOfBinarySearch {
         System.out.println( description + ": "
           + " value " + value
           + " \"found\" at index " + foundAt
-          + ". That's correct, eh? " + (foundAt == -1)
+          + ". That's correct, eh? " + (foundAt < 0)
           );
      }
 }

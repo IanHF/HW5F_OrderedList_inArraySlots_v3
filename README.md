@@ -1,4 +1,7 @@
-# exercise the List.indexOf
+# implement List.indexOf
+
+`while`-style and recursive implementations at the top of
+OrderedList_inArraySlots.java
 
 [Java API on the `indexOf` method](https://docs.oracle.com/javase/10/docs/api/java/util/List.html#indexOf(java.lang.Object))
 
